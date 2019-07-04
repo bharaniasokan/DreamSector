@@ -84,7 +84,7 @@ global with sharing class FundController {
         }
         return values;
     }
-    
+    // Test
     @AuraEnabled
     public static Sector__c[] getSectors() {
         return [SELECT Id, Name FROM Sector__c ORDER BY Name];
